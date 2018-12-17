@@ -1,0 +1,345 @@
+
+
+
+body{
+	margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   /* background-color: #e94504;*/
+
+}
+
+/*//////   HEADER GLOBAL /////////////    */
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #e94504;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #c8cfc1;
+
+
+}
+/* titre facecol...*/
+.item-titre{
+    flex-grow:  2;
+    height: 30px;
+    background-color: #e94504;
+    color: rgb(252, 249, 246);
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    padding-top: 80px;
+}
+
+/* Ca c'est la div de mon input search*/
+.item-search{
+   width:   444px;
+   /* background-color:rgb(47, 0, 255);*/
+    height: 50px;
+    padding: 2px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+  
+}
+
+#search input{
+    width: 500px;
+    height: 30px;
+    width: 500px;
+    border: 2px solid transparent;
+    margin-left: 10px;
+    box-shadow: 2px 2px #888888;
+    border-radius: 1px;
+    
+
+}
+
+/*  SECTION PROFIL   */
+#item-ceer-profil{
+    background-color: #242221;
+    flex-grow:  1;
+    height: 50px;
+    padding: 2px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+a{
+    color: #4a940e;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(243, 240, 240);
+    font-size:20px;
+    text-transform: uppercase;
+    margin-left: 50px;
+
+   
+  }
+
+  a:hover{
+      background-color: transparent;    
+      border-bottom: solid 2px rgb(0, 255, 42);
+
+  }
+  a:active{
+      color: coral;
+      border-bottom: solid 2px coral;
+      
+  }
+
+  /* SECTION PROFIL  */
+
+#containaire-profil {
+  /*  background-color: #0413e9;*/
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+   /* border: solid 5px #4a940e;*/
+    
+    
+
+
+}
+#item-nom-utilisateur{
+    background-color: #e94504;
+   flex-grow: 1;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#item-nom-utilisateur h4{
+    margin-left: 10px;
+    font-size: 30px;
+    flex-grow: 1;
+    text-transform: uppercase;
+    color: #343434;
+}
+
+.ContactPreview p{
+    background-color: rebeccapurple;
+}
+
+#item-nom-utilisateur p{
+    margin-left: 10px;
+    font-size: 20px;
+    flex-grow: 1;
+    text-transform: uppercase;
+    color: #343434;
+}
+
+#item-nom-utilisateur p span{
+    margin-left: 10px;
+    font-size: 20px;
+    flex-grow: 1;
+    text-transform: uppercase;
+    color: #e0dbdb;
+}
+
+
+#item-nom-utilisateur h3{
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    color: #343434;
+
+}
+
+
+
+#item-nom-image{
+    background-color: #e94504;
+    flex-grow: 0;
+
+
+}
+
+img{
+    width: 500px;
+    border-radius: 50%;
+    margin-top: 20px;
+   
+    
+
+}
+
+#item-nom-autre{
+     background-color: #e94504;
+        flex-grow: 1;
+        height: 300px;
+}
+#item-nom-autre{
+
+    font-size: 30px;
+    flex-grow: 1;
+    text-transform: uppercase;
+    color: #343434;
+}
+
+
+#item-nom-autre p{
+    margin-left: 10px;
+    font-size: 20px;
+    width: 350px;
+    text-transform: uppercase;
+}
+
+ #item-nom-autre span{
+    margin-left: 30px;
+    font-size: 30px;
+    color: rgb(243, 240, 240);
+}
+ 
+
+/* /////////////////////////////////**/
+
+article{
+    margin-top: 50px;
+    width: 20%;
+    height: 300px;;
+   
+    border: solid 2px #000;
+}
+
+article a{
+    background-color: #b96262;
+  
+}
+
+.image_forme{
+    width: 200px;
+    height: 200px;
+    background-color: #c5da05,
+}
+
+.container-amis{
+    width: 800px;
+    height: 300px;
+
+    margin-top: 80px;
+    background-color: #200  fbe;
+    border: solid 5px white;
+}
+
+
+table {
+    margin-top: 100px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #f05d23;
+    border: solid 2px #000;
+    margin-left:300px;
+}
+
+td {
+    color: black;
+    padding-left: 20px;
+    font-size: 14px;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #8b9dc3;
+    height: 200px;
+
+
+}
+.container-amis img{
+    width: 200px;
+    height: 100px;
+}
+
+
+/*/////////////  DESIEMME ////////////////////////*/
+
+#containaire-list{
+    display: flex;
+    flex-grow: 1;
+    height: 380px;    
+    background-color: #6123f0; 
+    
+
+}
+
+#item-image-list{
+    
+    background-color: #da0528; 
+}
+#item-img{
+    width: 200px;
+    height: 320px;    
+
+}
+#container-profil-list{
+    background-color: #d6da05;
+    flex-grow: 1;
+    height: 370px; 
+}   
+
+/* /////////////  liste contact /////////////*/
+
+#container-list{
+    background-color: #c20ba9;
+    height: 500px;
+   display: flex;
+  
+  
+
+}
+/* div izquierda */
+#list-contac{
+    height: 500px;
+    flex-grow: 1;
+    background-color: #d6da05;
+    border-bottom: 1px solid #8b9dc3;
+}
+/* div derecha */
+#list-contac2{
+    height: 500px;
+    flex-grow: 7;
+    background-color: #3e05da;
+    border: 3px solid #0d0e11;
+
+   
+}
+
+#table-list{
+    background-color: #c5da05;
+    border-bottom: 3px solid #0d0e11;  
+    width: 700px; 
+    margin-left: 30px;
+    border-bottom: 5px solid #da0505;
+
+}
+
+/*div de mis contactos*/
+#table-list td{
+    background-color: #1eda05;
+    border: 3px solid #0d0e11;
+    margin-left: 10px;
+   
+}
+#ligne-table{
+    padding: 20px;
+    margin-top: 20px;
+   
+}
+
+.col-gauche{
+    margin-left: 20px;  
+}
+
+#table-list td img{
+    background-color: #b96262;
+    border-bottom: 3px solid #0d0e11;  
+    width: 200px; 
+    height: 200px;
+    
+
+}
